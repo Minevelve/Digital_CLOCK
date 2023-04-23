@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="Stylesheet"  href="./MyStyle.css"/>
+
+
+    
+</head>
+<body>
+
+    <div id="MyTime">
+        <div id="white-div-clock">
+                    <div style="font-family: 'Courier New', Courier, monospace;height: 30px;width: 70px;position: relative;top: 40px;left: 15px;">Time</div>
+                    <div style="background-color: #F6E2FF; height: 45px;width: 55px;position: relative;top:-5px;left: 75px;border-radius: 4px;"><span id="hour">12</span>
+                        <center><p style="color:#5f0089">Hour</p></center>
+                    </div>
+                    <h1 style="position: relative;top: -45px;left: 135px;">:</h1>
+                    
+                    <div style="background-color:  #F6E2FF; height: 45px;width: 55px;position: relative;top:-85px;left:160px;border-radius: 4px;"><span id="minute">12</span>
+                        <center><p style="color:#5f0089">Minute</p></center>
+                    </div>
+                    <h1 style="position: relative;top:-125px;left: 225px;">:</h1>
+
+                    <div style="background-color:  #F6E2FF; height: 45px;width: 55px;position: relative;top:-165px;left:250px;border-radius: 4px;"><span id="second">12</span>
+                        <center><p style="color:#5f0089">Second</p></center>
+                    </div> 
+                    <div style="background-color: #CB52F8; height: 45px;width: 55px;position: relative;top:-210px;left:320px;border-radius: 4px;">
+                        <span id="am_or_pm">AM</span>  
+                    </div> 
+                   
+                    <img src="./clock_logo@2x.png" style="height: 70px;width:200px;position: absolute;left: -450px;top: 15px;"/>
+
+
+                    <div class="set-up-time">
+                            <img src="./wake_up.svg" style="position: relative;top:15px;left:10px;">
+                            <h4 style="margin-left: 20%;margin-top:-4%;">Set Wake Up time</h4>
+                          
+                           <select id="set-up">
+                                <option value="10 AM - 11 AM">10 AM - 11 AM</option>
+                                <option value="11 AM - 12 AM">11 AM - 12 AM</option>
+                          </select>  
+
+                           <br>
+
+                           <img src="./lunch_time.svg" style="position: relative;top:15px;left:10px;">
+                           <h4 style="margin-left: 20%;margin-top:-4%;">Set Lunch time</h4>
+                         
+                          <select id="set-up">
+                               <option value="10 AM - 11 AM">12 AM - 01 AM</option>
+                               <option value="11 AM - 12 AM">01 AM - 02 AM</option>
+                               
+                          </select>  
+
+                          <br>
+
+                          <img src="./nap_time.svg" style="position: relative;top:15px;left:10px;">
+                           <h4 style="margin-left: 20%;margin-top:-4%;">Set nep time</h4>
+                         
+                          <select id="set-up">
+                               <option value="10 AM - 11 AM">04 AM - 05 AM</option>
+                           </select> 
+
+                          <br>
+
+                         <img src="./nap_time.svg" style="position: relative;top:15px;left:10px;">
+                          <h4 style="margin-left: 20%;margin-top:-4%;">Set Night time</h4>
+                          <select id="set-up">
+                            <option value="10 AM - 11 AM">04 AM - 05 AM</option>
+                          </select>  
+                    </div>
+                     <button id="set-alarm"  onmouseover="set_alarm()" onmouseleave="set_alarm_party_time()">
+                          <p id="p1" style="color: white;">Set Alarm</p>
+                     </button>
+
+            <br>
+
+            <div id="girl-img">
+                <div id="Good-Morning-Wake-Up">
+                    <center>
+                        <h2 style="padding-top:15px;">Good Morning !! Wake Up!!</h2>
+                    </center>
+                 </div> 
+
+                <div id="GRAB_SOME_HEALTHY_BREAKFAST">
+                    <center><h3 style="padding-top: 25px;color:#8E53F0;">GRAB SOME HEALTHY BREAKFAST!!!</h3></center>
+                </div>
+                          <img src="./Component 30 – 1.svg" style="height:274px; width: 400px;position: relative;top: -522px;left: 5px;" id="girl-img-1">
+            </div>
+
+             <div class="Lunch_time">
+                <div id="good_afternoon">
+                    <center><h2 style="padding-top:15px;color:#8E53F0;">GOOD AFTERNOON !! TAKE SOME SLEEP</h2></center>
+                </div> 
+                <div id="LET_S_HAVE_SOME_LUNCH">
+                    <center><h3 style="padding-top: 25px;color:#8E53F0;">LET'S HAVE SOME LUNCH !!</h3></center>
+                </div>
+                      <img src="./Component 31 – 1.jpg" style="height:274px; width: 400px;position:relative;top: -821px;left: 5px;" id="Lunch-time-1">
+             </div>
+
+             <div id="EVENING">
+                <div id="GOOD_EVENING">
+                    <center>
+                        <h2 style="padding-top:15px;color:#8E53F0;">GOOD EVENING !!</h2>
+                    </center>
+                 </div> 
+
+                <div id="yewing">
+                    <center><h3 style="padding-top: 15px;color:#8E53F0;">STOP YAWNING, GET SOME TEA.. ITS JUST EVENING!</h3></center>
+                </div>
+                          <img src="./Tea.png" style="height:274px; width: 400px;position: relative;top: -1240px;left: 5px;" id="tea_image">
+            </div>
+
+
+            <div id="Night">
+                <div id="GOOD_NIGHT">
+                    <center>
+                        <h2 style="padding-top:15px;color:#8E53F0;">GOOD NIGHT !!</h2>
+                    </center>
+                 </div> 
+
+                <div id="night_night">
+                    <center><h3 style="padding-top: 15px;color:#8E53F0;">CLOSE YOUR EYES AND GO TO SLEEP</h3></center>
+                </div>
+                          <img src="./goodnight_image.jpg" style="height:274px; width: 400px;position: relative;top: -522px;left: 5px;" id="NIGHT_image">
+            </div>
+
+
+        <div id="page-no-5-setup">    
+           <div id="page-no-5"> 
+            <div class="page-no-5">
+                <div class="clock_logo">
+                    <img src="./clock_logo@2x.png" style="height: 70px;width: 150px;position: relative;top: 100px;left:60px;">
+                </div>
+        
+                <div class="icons_three-logo">
+                    <img src="./wake_up.svg" style="padding-top: 30px;padding-left: 5px;">
+                    <img src="./lunch_time.svg" style="padding-top: 30px;padding-left: 85px;">
+                    <img src="./nap_time.svg" style="padding-top: 30px;padding-left: 85px;">
+                </div>
+        
+                <div class="time-page-no-5">
+                    <div style="font-family: 'Courier New', Courier, monospace;height: 30px;width: 70px;position: relative;top: 40px;left: 15px;">Time</div>
+                    <div style="background-color: #F6E2FF; height: 45px;width: 55px;position: relative;top:-5px;left: 75px;border-radius: 4px;"><span id="hour1">12</span>
+                        <center><p style="color:#5f0089">Hour</p></center>
+                    </div>
+                    <h1 style="position: relative;top: -45px;left: 135px;">:</h1>
+                    
+                    <div style="background-color:  #F6E2FF; height: 45px;width: 55px;position: relative;top:-85px;left:160px;border-radius: 4px;"><span id="minute1">12</span>
+                        <center><p style="color:#5f0089">Minute</p></center>
+                    </div>
+                    <h1 style="position: relative;top:-125px;left: 225px;">:</h1>
+        
+                    <div style="background-color:  #F6E2FF; height: 45px;width: 55px;position: relative;top:-165px;left:250px;border-radius: 4px;"><span id="second1">12</span>
+                        <center><p style="color:#5f0089">Second</p></center>
+                    </div> 
+                    <div style="background-color: #CB52F8; height: 45px;width: 55px;position: relative;top:-210px;left:320px;border-radius: 4px;">
+                        <span id="am_or_pm">AM</span>  
+                    </div> 
+              </div>
+                <div class="time-set-up-page-5">
+                       <div style="transform: translate(100px , 50px);">
+                        <p>08AM  - 09AM</p>
+                        <br>
+                        <p>09AM  - 10AM</p>
+                        <br>
+                        <p>11AM  - 12AM</p>
+                        <br>
+                        <p>12AM  - 01AM</p>
+                    </div> 
+                </div>
+                <div style="background-color: #DDF5FF;color:black;height: 20px;width: 300px;transform: translate(100px ,230px);"><center><p>08AM  - 09AM</p></center></div>
+                <br>
+                <div style="background-color: #DDF5FF;color:black;height: 20px;width: 300px;transform: translate(100px ,230px);"><center><p>09AM  - 10AM</p></center></div>
+                <br>
+                <div style="background-color: #DDF5FF;color:black;height: 20px;width: 300px;transform: translate(100px ,230px);"><center><p>11AM  - 12AM</p></center></div>
+                <br>
+                <div style="background-color: #DDF5FF;color:black;height: 20px;width: 300px;transform: translate(100px ,230px);"><center><p>12AM  - 01AM</p></center></div>
+        
+              <div style="transform: translate(520px , -600px);">
+                <img src="./Component 30 – 1.svg" style="height:300px;width: 300px;" >
+              </div>
+              <br>
+              <div style="transform: translate(520px , -640px);">
+                <img src="./Component 31 – 1.jpg" style="height:200px;width: 300px;border-radius: 10px;" >
+              </div>
+              <br>
+              <div style="transform: translate(520px , -618px);">
+                <img src="./Tea.png" style="height:200px;width: 300px;border-radius: 10px;" >
+              </div>
+              <br>
+              <div style="transform: translate(520px , -604px);">
+                <img src="./goodnight_image.jpg" style="height:200px;width: 300px;border-radius: 10px;" >
+              </div>
+            </div>
+        </div>
+    </div>    
+          
+ <script src="./Script.js"></script>
+</body>
+</html>

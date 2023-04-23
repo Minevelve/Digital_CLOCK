@@ -1,0 +1,219 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+span
+{
+    font-size:25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 10px;
+}
+#am_or_pm{
+    color: white;
+}
+#MyTime{
+    
+    background-color: #3D087B;
+    height: 600px;
+    width:1000px;
+    position: relative;
+    top:22px;
+    left: 145px;    
+  }
+
+#white-div-clock{
+     height: 100px;
+     width: 390px;
+     border-radius: 10px;
+     background-color: aliceblue;
+     position: relative;
+     top: 50px;
+     left: 490px;
+
+}
+#hour{
+   font-size:25px;
+}
+#minute{
+    font-size:25px;
+}
+
+.set-up-time
+{
+    background-color:white;
+    height: 250px;
+    width: 450px;
+    border-radius: 10px;
+    position: relative;
+    bottom:100px;
+    right: 450px;
+}
+#set-up{
+    position: relative;
+    left: 240px;
+    top: -18px;
+    width: 200px;
+    
+}
+#Good-Morning-Wake-Up{
+    height: 60px;
+    width:450px;
+    background-color: #FFFFFF;
+    position: relative;
+    top: -125px;
+    left: -450px;
+    border-radius: 10px;
+    opacity: 0.23;
+    color:blue;
+    text-transform: uppercase;
+    
+}
+#set-alarm{
+    height: 35px;
+    width: 120px;
+    background: transparent linear-gradient(113deg, #6E54EC 0%, #CB52F8 40%, #FC5EFF 81%, #F1A7C5 100%);
+    position: relative;
+    top: -22px;
+    right: 450px;
+}
+.set-alarm-1{
+   
+    height: 35px;
+    width: 120px;
+    background: transparent linear-gradient(113deg, #F1A7C5  0%,  #FC5EFF  40%,#CB52F8 81%, #6E54EC 100%);
+    position: relative;
+    top: -22px;
+    right: 450px;
+}
+#GRAB_SOME_HEALTHY_BREAKFAST
+{
+    height: 70px;
+    width: 390px;
+    background-color: white;
+    position: relative;
+    top: -520px;
+    border-radius: 10px;
+}
+
+#girl-img
+{
+    height: 300px;
+    width: 400px;
+    
+}
+#CLOSE_YOUR_EYES_AND_GO_TO_SLEEP{
+    
+    height: 70px;
+    width: 390px;
+    background-color:white;
+    position: relative;
+    top: -1404px;
+    border-radius: 10px;
+}
+#LET_S_HAVE_SOME_LUNCH{
+    height: 70px;
+    width: 390px;
+    background-color:white;
+    position:relative;
+    top: -830px;
+    border-radius: 10px;
+}
+
+#good_afternoon{
+    height: 70px;
+    width: 450px;
+    background-color: white;
+    position: relative;
+    top: -430px;
+    right: 450px;
+    border-radius: 10px;  
+}
+#GOOD_EVENING{
+    height: 70px;
+    width: 450px;
+    background-color: white;
+    color: #6E54EC;
+    position: relative;
+    top: -850px;
+    right: 450px;
+    border-radius: 10px;
+    opacity: 0.23;  
+}
+#yewing{
+    height: 70px;
+    width: 390px;
+    background-color:white;
+    position:relative;
+    top: -1250px;
+    border-radius: 10px;
+
+}
+
+#GOOD_NIGHT{
+    height: 70px;
+    width: 450px;
+    background-color: white;
+    color: #6E54EC;
+    position: relative;
+    top: -130px;
+    right: 450px;
+    border-radius: 10px;
+    opacity: 0.23;  
+}
+#night_night{
+    height: 70px;
+    width: 390px;
+    background-color:white;
+    position:relative;
+    top: -530px;
+    border-radius: 10px;
+
+}
+#Night{
+    position:relative;
+    top: -1136px;
+    border-radius: 10px;
+}
+
+.page-no-5{
+    height:1000px;
+    width: 1060px;
+    background-color:#3D087B;
+    transform: translate(150px , 30px);
+}
+.icons_three-logo
+{
+    height: 100px;
+    width: 300px;
+    background-color: white;
+    position: relative;
+    top: 130px;
+    left: 50px;
+    border-radius: 10px;
+}
+.time-page-no-5{
+    height: 100px;
+    width: 430px;
+    background-color: white;
+    position: relative;
+    top: 170px;
+    left: 50px;
+    border-radius: 10px;
+    box-shadow: 5px 10px #888888;
+}
+.time-set-up-page-5{
+    height: 200px;
+    width: 430px;
+    background-color: white;
+    position: relative;
+    top: 200px;
+    left: 50px;
+    border-radius: 10px;
+}
+#page-no-5-setup
+{
+   position: absolute;
+   top:-90px;
+   left: -700px;
+}
